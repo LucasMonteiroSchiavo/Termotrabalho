@@ -40,11 +40,6 @@ body {
     color: white;
   }
   
-  .green {
-    background-color: #538d4e;
-    border-color: #538d4e;
-  }
-  
   
   #input-area {
     display: flex;

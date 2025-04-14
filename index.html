@@ -3,19 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>TERMO Clone</title>
+    <!-- título que aparece na aba do navegador -->
+
   <link rel="stylesheet" href="css/style.css">
+    <!--linkando o css -->
+
 </head>
 <body>
   <h1>TERMO</h1>
 
+
+
   <div id="game"></div>
+    <!-- área onde o jogo (as caixas) vai surgir -->
+
 
   <div id="input-area">
     <input type="text" id="guessInput" maxlength="5" placeholder="Digite uma palavra">
+        <!-- campo de texto onde tem que digitar a palavra (max 5 letras) -->
+
     <button onclick="submitGuess()">⏎</button>
+        <!-- botão pra enviar o chute, chamando a função submitGuess -->
+
   </div>
 
   <p id="message"></p>
+    <!-- área para exibir mensagens como “acertou” ou “errou” -->
+
 
   <script src="java/java.js"></script>
 </body>
